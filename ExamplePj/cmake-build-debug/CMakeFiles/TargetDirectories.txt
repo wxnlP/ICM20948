@@ -1,0 +1,3 @@
+C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir
+C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/edit_cache.dir

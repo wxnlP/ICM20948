@@ -1,0 +1,44 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-exit.o): in function `exit':
+(.text.exit+0x28): undefined reference to `_exit'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-closer.o): in function `_close_r':
+(.text._close_r+0x18): undefined reference to `_close'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+(.text._lseek_r+0x20): undefined reference to `_lseek'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-readr.o): in function `_read_r':
+(.text._read_r+0x20): undefined reference to `_read'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-writer.o): in function `_write_r':
+(.text._write_r+0x20): undefined reference to `_write'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-exit.o): in function `exit':
+(.text.exit+0x28): undefined reference to `_exit'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-closer.o): in function `_close_r':
+(.text._close_r+0x18): undefined reference to `_close'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+(.text._lseek_r+0x20): undefined reference to `_lseek'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-readr.o): in function `_read_r':
+(.text._read_r+0x20): undefined reference to `_read'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-writer.o): in function `_write_r':
+(.text._write_r+0x20): undefined reference to `_write'
+C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+

@@ -1,0 +1,19 @@
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/ClionTools/ARM-none/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/ClionTools/ARM-none/bin/arm-none-eabi-c++.exe -G "CodeBlocks - MinGW Makefiles" C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32
+-- The C compiler identification is GNU 12.3.1
+-- The CXX compiler identification is GNU 12.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug
