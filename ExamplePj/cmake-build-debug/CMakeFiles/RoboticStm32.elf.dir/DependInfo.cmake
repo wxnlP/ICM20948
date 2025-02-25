@@ -34,9 +34,12 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Bsp/adc"
   "../Bsp/timer"
   "../Bsp/imu"
+  "../Bsp/can_fd"
+  "../Robotic/pid"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/adc/voltage.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/can_fd/can_fd.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/encoder/encoder.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/gpio/beef.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/gpio/led.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj"
@@ -48,10 +51,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/timer/timer.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/uart/uart.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/adc.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/can.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/freertos.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/gpio.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/i2c.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/main.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/spi.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/stm32f1xx_hal_msp.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/stm32f1xx_hal_timebase_tim.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/stm32f1xx_it.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj"
@@ -63,6 +68,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
@@ -74,6 +80,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
@@ -87,6 +94,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+  "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Robotic/pid/pid.c" "C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -115,6 +123,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Bsp/adc"
   "../Bsp/timer"
   "../Bsp/imu"
+  "../Bsp/can_fd"
+  "../Robotic/pid"
   )
 
 # Targets to which this target links.

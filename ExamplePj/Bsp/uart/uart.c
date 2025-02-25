@@ -32,16 +32,30 @@ void UART_SendFloat(UART_HandleTypeDef *huart, float num) {
     HAL_UART_Transmit(huart, (uint8_t*)str, strlen(str), 100);  // 发送字符串
 }
 
-void UART_SendImuData(UART_HandleTypeDef *huart, ImuData data) {
+void UART_SendImuData(UART_HandleTypeDef *huart, ImuAccel* accData, ImuGyro* gyroData, ImuMag* magData) {
     static char buffer[64];
     int offset = 0;
-
     // 使用单次格式化操作（注意防止缓冲区溢出）
     offset += snprintf(buffer + offset, sizeof(buffer) - offset,
-                       "A:%ld,%ld,%ld G:%ld,%ld,%ld\r\n",  // 格式说明符优化
-                       data.AccX, data.AccY, data.AccZ,
-                       data.GyroX, data.GyroY, data.GyroZ);
+                       "A:%hd,%hd,%hd G:%hd,%hd,%hd M:%hd,%hd,%hd\r\n",  // 格式说明符优化
+                       accData->AccX, accData->AccY, accData->AccZ,
+                       gyroData->GyroX, gyroData->GyroY, gyroData->GyroZ,
+                       magData->MagX, magData->MagY, magData->MagZ);
+    // 安全发送（注意：HAL_UART_Transmit需要const uint8_t*）
+    if(offset > 0 && offset < sizeof(buffer)){
+        HAL_UART_Transmit(huart, (uint8_t*)buffer, offset, 100);
+    }
+}
 
+void UART_SendImuReal(UART_HandleTypeDef *huart, ImuReal* accData, ImuReal* gyroData, ImuReal* magData) {
+    static char buffer[96];
+    int offset = 0;
+    // 使用单次格式化操作（注意防止缓冲区溢出）
+    offset += snprintf(buffer + offset, sizeof(buffer) - offset,
+                       "A_real:%.4f,%.4f,%.4f G_real:%.4f,%.4f,%.4f M_real:%.4f,%.4f,%.4f\r\n",
+                       accData->X, accData->Y, accData->Z,
+                       gyroData->X, gyroData->Y, gyroData->Z,
+                       magData->X, magData->Y, magData->Z);
     // 安全发送（注意：HAL_UART_Transmit需要const uint8_t*）
     if(offset > 0 && offset < sizeof(buffer)){
         HAL_UART_Transmit(huart, (uint8_t*)buffer, offset, 100);

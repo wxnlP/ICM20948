@@ -88,9 +88,22 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\adc\voltage.c -o CMakeFiles\RoboticStm32.elf.dir\Bsp\adc\voltage.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj: ../Bsp/can_fd/can_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\can_fd\can_fd.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\can_fd\can_fd.c
+
+CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\can_fd\can_fd.c > CMakeFiles\RoboticStm32.elf.dir\Bsp\can_fd\can_fd.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\can_fd\can_fd.c -o CMakeFiles\RoboticStm32.elf.dir\Bsp\can_fd\can_fd.c.s
+
 CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj: ../Bsp/encoder/encoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\encoder\encoder.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\encoder\encoder.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.i: cmake_force
@@ -103,7 +116,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj: ../Bsp/gpio/beef.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\gpio\beef.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\gpio\beef.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.i: cmake_force
@@ -116,7 +129,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj: ../Bsp/gpio/led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\gpio\led.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\gpio\led.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.i: cmake_force
@@ -129,7 +142,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj: ../Bsp/imu/icm20948.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\imu\icm20948.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\imu\icm20948.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.i: cmake_force
@@ -142,7 +155,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj: ../Bsp/imu/mpu6050.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\imu\mpu6050.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\imu\mpu6050.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.i: cmake_force
@@ -155,7 +168,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj: ../Bsp/imu/sw_iic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\imu\sw_iic.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\imu\sw_iic.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.i: cmake_force
@@ -168,7 +181,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj: ../Bsp/motor/motor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\motor\motor.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\motor\motor.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.i: cmake_force
@@ -181,7 +194,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj: ../Bsp/oled/oled.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\oled\oled.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\oled\oled.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.i: cmake_force
@@ -194,7 +207,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj: ../Bsp/timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\timer\timer.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\timer\timer.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.i: cmake_force
@@ -207,7 +220,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj: ../Bsp/uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Bsp\uart\uart.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Bsp\uart\uart.c
 
 CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.i: cmake_force
@@ -220,7 +233,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\adc.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\adc.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.i: cmake_force
@@ -231,9 +244,22 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\adc.c -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\adc.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj: ../Core/Src/can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\can.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\can.c
+
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\can.c > CMakeFiles\RoboticStm32.elf.dir\Core\Src\can.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\can.c -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\can.c.s
+
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\freertos.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\freertos.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -246,7 +272,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\gpio.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\gpio.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -259,7 +285,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\i2c.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\i2c.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -272,7 +298,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\main.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\main.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.i: cmake_force
@@ -283,9 +309,22 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\main.c -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\main.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\spi.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\spi.c
+
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\spi.c > CMakeFiles\RoboticStm32.elf.dir\Core\Src\spi.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\spi.c -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\spi.c.s
+
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -298,7 +337,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f1xx_hal_timebase_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\stm32f1xx_hal_timebase_tim.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i: cmake_force
@@ -311,7 +350,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s: cmake_f
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -324,7 +363,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\syscalls.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\syscalls.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -337,7 +376,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\sysmem.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\sysmem.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -350,7 +389,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -363,7 +402,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\tim.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\tim.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -376,7 +415,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Src\usart.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Src\usart.c
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -389,12 +428,12 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: ../Core/Startup/startup_stm32f103rctx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Core\Startup\startup_stm32f103rctx.s.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Core\Startup\startup_stm32f103rctx.s
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -407,7 +446,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i: cmake_force
@@ -420,7 +459,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i: cmake_force
@@ -431,9 +470,22 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c
+
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c > CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c.s
+
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -446,7 +498,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -459,7 +511,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_d
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -472,7 +524,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_e
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -485,7 +537,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -498,7 +550,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -511,7 +563,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -524,7 +576,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -537,7 +589,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -550,7 +602,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_p
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -563,7 +615,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -574,9 +626,22 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c
+
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c > CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.s
+
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -589,7 +654,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -602,7 +667,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -615,7 +680,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_u
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -628,7 +693,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RT
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -641,7 +706,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -654,7 +719,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_gr
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -667,7 +732,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -680,7 +745,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -693,7 +758,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -706,7 +771,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -719,7 +784,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_b
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -732,7 +797,7 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -743,9 +808,23 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\RoboticStm32.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
+CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj: CMakeFiles/RoboticStm32.elf.dir/flags.make
+CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj: ../Robotic/pid/pid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RoboticStm32.elf.dir\Robotic\pid\pid.c.obj -c C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Robotic\pid\pid.c
+
+CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.i"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Robotic\pid\pid.c > CMakeFiles\RoboticStm32.elf.dir\Robotic\pid\pid.c.i
+
+CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.s"
+	C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\Robotic\pid\pid.c -o CMakeFiles\RoboticStm32.elf.dir\Robotic\pid\pid.c.s
+
 # Object files for target RoboticStm32.elf
 RoboticStm32_elf_OBJECTS = \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj" \
@@ -757,10 +836,12 @@ RoboticStm32_elf_OBJECTS = \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
@@ -773,6 +854,7 @@ RoboticStm32_elf_OBJECTS = \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj" \
@@ -784,6 +866,7 @@ RoboticStm32_elf_OBJECTS = \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" \
@@ -796,12 +879,14 @@ RoboticStm32_elf_OBJECTS = \
 "CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
-"CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+"CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj"
 
 # External object files for target RoboticStm32.elf
 RoboticStm32_elf_EXTERNAL_OBJECTS =
 
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj
@@ -813,10 +898,12 @@ RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj
@@ -829,6 +916,7 @@ RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
@@ -840,6 +928,7 @@ RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/S
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
@@ -853,9 +942,11 @@ RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRT
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/build.make
+RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/objects1.rsp
 RoboticStm32.elf: CMakeFiles/RoboticStm32.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking C executable RoboticStm32.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\EmbeddedChipsProjects\FinalProject\STM32\RoboticStm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking C executable RoboticStm32.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RoboticStm32.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/RoboticStm32.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/RoboticStm32.bin"

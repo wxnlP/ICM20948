@@ -55,6 +55,8 @@ include_directories(
     Bsp/adc
     Bsp/timer
     Bsp/imu
+    Bsp/can_fd
+    Robotic/pid
     )
 
 add_definitions(${defines})
@@ -68,6 +70,8 @@ file(GLOB_RECURSE SOURCES ${sources}
     "Bsp/adc/*.*"
     "Bsp/timer/*.*"
     "Bsp/imu/*.*"
+    "Bsp/can_fd/*.*"
+    "Robotic/pid/*.*"
     )
 
 set(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})

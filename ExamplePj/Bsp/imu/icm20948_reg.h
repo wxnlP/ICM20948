@@ -1,7 +1,9 @@
 #ifndef __ICM10948_REG_H
 #define __ICM10948_REG_H
 
-
+/* 读写位 */
+#define WRITE                        0x00
+#define READ						 0x80
 /* ICM20948的从机地址 */
 #define ICM20948_ADDRESS             0xD0     // 1101 000
 // AD0高电平时的从机地址
@@ -38,6 +40,7 @@
 #define ICM20948_GYRO_ZOUT_L         0x38
 #define ICM20948_TEMP_OUT_H          0x39
 #define ICM20948_TEMP_OUT_L          0x3A
+#define ICM20948_EXT_SLV_SENS_DATA_00 0x3B
 /* 0x3b~0x52省略 */
 #define ICM20948_FIFO_EN_1           0x66
 #define ICM20948_FIFO_EN_2           0x67
@@ -98,7 +101,7 @@
 #define ICM20948_REG_BANK_SEL        0x7F
 
 /* AK09916 Registers */
-#define AK09916_ADDRESS              0x18
+#define AK09916_ADDRESS              0x0C
 #define AK09916_WIA                  0x01 // Who I am, Device ID
 #define AK09916_STATUS_1             0x10
 #define AK09916_MGTR_XOUTL           0x11

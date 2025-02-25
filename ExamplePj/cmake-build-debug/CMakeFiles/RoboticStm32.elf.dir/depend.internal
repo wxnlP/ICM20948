@@ -4,8 +4,8 @@
 CMakeFiles/RoboticStm32.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Startup/startup_stm32f103rctx.s
 CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
- ../Bsp/imu/icm10948_reg.h
  ../Bsp/imu/icm20948.h
+ ../Bsp/imu/icm20948_reg.h
  ../Bsp/imu/sw_iic.h
  ../Bsp/oled/oled.h
  ../Bsp/uart/uart.h
@@ -13,6 +13,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
  ../Core/Inc/adc.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
+ ../Core/Inc/spi.h
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
@@ -30,6 +31,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -43,6 +45,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -56,6 +59,45 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/adc/voltage.c
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/adc/voltage.h
+CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj
+ ../Core/Inc/can.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/can_fd/can_fd.c
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/can_fd/can_fd.h
 CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/stm32f1xx_hal_conf.h
@@ -75,6 +117,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -88,6 +131,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/encoder/encoder.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -113,6 +157,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -126,6 +171,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/beef.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -160,6 +206,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -173,6 +220,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -187,10 +235,10 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/gpio/led.c.obj
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/gpio/led.c
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/gpio/led.h
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj
- ../Bsp/oled/oled.h
  ../Core/Inc/FreeRTOSConfig.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
+ ../Core/Inc/spi.h
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
@@ -207,6 +255,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -220,6 +269,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -231,9 +281,9 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/icm20948.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
- C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/imu/icm10948_reg.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/imu/icm20948.c
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/imu/icm20948.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/imu/icm20948_reg.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/imu/sw_iic.h
 CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj
  ../Core/Inc/FreeRTOSConfig.h
@@ -255,6 +305,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -268,6 +319,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/mpu6050.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -302,6 +354,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -315,6 +368,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/imu/sw_iic.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -347,6 +401,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -360,6 +415,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/motor/motor.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -384,6 +440,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -397,6 +454,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/oled/oled.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -420,6 +478,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -433,18 +492,20 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/timer/timer.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/timer/timer.c
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Bsp/timer/timer.h
 CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj
- ../Bsp/imu/icm10948_reg.h
  ../Bsp/imu/icm20948.h
+ ../Bsp/imu/icm20948_reg.h
  ../Bsp/imu/sw_iic.h
  ../Core/Inc/FreeRTOSConfig.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
+ ../Core/Inc/spi.h
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
@@ -462,6 +523,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -475,6 +537,7 @@ CMakeFiles/RoboticStm32.elf.dir/Bsp/uart/uart.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -507,6 +570,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -520,24 +584,69 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/adc.c
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj
+ ../Core/Inc/can.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/can.c
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj
  ../Bsp/adc/voltage.h
+ ../Bsp/can_fd/can_fd.h
+ ../Bsp/encoder/encoder.h
  ../Bsp/gpio/beef.h
  ../Bsp/gpio/led.h
- ../Bsp/imu/icm10948_reg.h
  ../Bsp/imu/icm20948.h
+ ../Bsp/imu/icm20948_reg.h
  ../Bsp/imu/sw_iic.h
+ ../Bsp/motor/motor.h
  ../Bsp/oled/oled.h
  ../Bsp/uart/uart.h
  ../Core/Inc/FreeRTOSConfig.h
  ../Core/Inc/adc.h
+ ../Core/Inc/can.h
  ../Core/Inc/gpio.h
  ../Core/Inc/main.h
+ ../Core/Inc/spi.h
  ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Core/Inc/tim.h
  ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
@@ -554,6 +663,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -567,6 +677,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -580,6 +691,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/freertos.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
+ ../Robotic/pid/pid.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/freertos.c
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj
  ../Core/Inc/gpio.h
@@ -600,6 +712,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -613,6 +726,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -636,6 +750,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -649,16 +764,21 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/i2c.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/i2c.c
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj
+ ../Bsp/encoder/encoder.h
+ ../Bsp/oled/oled.h
  ../Core/Inc/FreeRTOSConfig.h
  ../Core/Inc/adc.h
+ ../Core/Inc/can.h
  ../Core/Inc/gpio.h
  ../Core/Inc/i2c.h
  ../Core/Inc/main.h
+ ../Core/Inc/spi.h
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Core/Inc/tim.h
  ../Core/Inc/usart.h
@@ -677,6 +797,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -690,6 +811,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -702,6 +824,44 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.obj
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/main.c
+CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/spi.h
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Core/Src/spi.c
 CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/stm32f1xx_hal_conf.h
@@ -720,6 +880,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -733,6 +894,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -754,6 +916,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -767,6 +930,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -790,6 +954,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -803,6 +968,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/stm32f1xx_it.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -828,6 +994,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -841,6 +1008,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/system_stm32f1xx.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -864,6 +1032,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -877,6 +1046,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/tim.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -900,6 +1070,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -913,6 +1084,7 @@ CMakeFiles/RoboticStm32.elf.dir/Core/Src/usart.c.obj
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -934,6 +1106,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -947,6 +1120,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -968,6 +1142,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -981,6 +1156,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1002,6 +1178,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1015,10 +1192,47 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_a
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
@@ -1036,6 +1250,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_c
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1049,6 +1264,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_c
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1070,6 +1286,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_d
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1083,6 +1300,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_d
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1104,6 +1322,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_e
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1117,6 +1336,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_e
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1138,6 +1358,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1151,6 +1372,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1172,6 +1394,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1185,6 +1408,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_f
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1206,6 +1430,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1219,6 +1444,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1240,6 +1466,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1253,6 +1480,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_g
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1274,6 +1502,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1287,6 +1516,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1308,6 +1538,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_p
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1321,6 +1552,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_p
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1342,6 +1574,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1355,6 +1588,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1376,6 +1610,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1389,10 +1624,47 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_r
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  ../Core/Inc/stm32f1xx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
@@ -1410,6 +1682,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1423,6 +1696,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1444,6 +1718,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1457,6 +1732,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_t
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1478,6 +1754,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_u
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
@@ -1491,6 +1768,7 @@ CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_u
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -1624,3 +1902,46 @@ CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h
  C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj
+ ../Bsp/encoder/encoder.h
+ ../Bsp/motor/motor.h
+ ../Bsp/oled/oled.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f1xx_hal_conf.h
+ ../Core/Inc/tim.h
+ ../Core/Inc/usart.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm3.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Robotic/pid/pid.c
+ C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/Robotic/pid/pid.h

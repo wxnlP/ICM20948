@@ -35,10 +35,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_1b733/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1b733.dir\build.make CMakeFiles/cmTC_1b733.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_6eb84/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6eb84.dir\build.make CMakeFiles/cmTC_6eb84.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b733.dir/CMakeCCompilerABI.c.obj
-C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_6eb84.dir/CMakeCCompilerABI.c.obj
+C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe
 Target: arm-none-eabi
@@ -46,8 +46,8 @@ Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/conf
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\'
- C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_1b733.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccIPPxym.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\'
+ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6eb84.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccs1Bu8O.s
 GNU C17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -68,17 +68,17 @@ GNU C17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (a
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6b41f550ce349ababa4831027f14dd31
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\'
- C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj C:\Users\lzh\AppData\Local\Temp\ccIPPxym.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\'
+ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj C:\Users\lzh\AppData\Local\Temp\ccs1Bu8O.s
 GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627
 COMPILER_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.'
-Linking C static library libcmTC_1b733.a
-"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1b733.dir\cmake_clean_target.cmake
-"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1b733.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_1b733.a CMakeFiles/cmTC_1b733.dir/CMakeCCompilerABI.c.obj
-C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_1b733.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.'
+Linking C static library libcmTC_6eb84.a
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_6eb84.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6eb84.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_6eb84.a CMakeFiles/cmTC_6eb84.dir/CMakeCCompilerABI.c.obj
+C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_6eb84.a
 mingw32-make.exe[1]: Leaving directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -106,10 +106,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_1b733/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1b733.dir\build.make CMakeFiles/cmTC_1b733.dir/build]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_6eb84/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6eb84.dir\build.make CMakeFiles/cmTC_6eb84.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1b733.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_6eb84.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
@@ -117,8 +117,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\']
-  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_1b733.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccIPPxym.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\']
+  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6eb84.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccs1Bu8O.s]
   ignore line: [GNU C17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -139,8 +139,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6b41f550ce349ababa4831027f14dd31]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\']
-  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj C:\Users\lzh\AppData\Local\Temp\ccIPPxym.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\']
+  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj C:\Users\lzh\AppData\Local\Temp\ccs1Bu8O.s]
   ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627]
   ignore line: [COMPILER_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -149,12 +149,12 @@ Parsed C implicit link information from above output:
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1b733.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C static library libcmTC_1b733.a]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1b733.dir\cmake_clean_target.cmake]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1b733.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_1b733.a CMakeFiles/cmTC_1b733.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_1b733.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_6eb84.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_6eb84.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_6eb84.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6eb84.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_6eb84.a CMakeFiles/cmTC_6eb84.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_6eb84.a]
   ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
@@ -166,10 +166,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_1650d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1650d.dir\build.make CMakeFiles/cmTC_1650d.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_06311/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_06311.dir\build.make CMakeFiles/cmTC_06311.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1650d.dir/CMakeCXXCompilerABI.cpp.obj
-C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_06311.dir/CMakeCXXCompilerABI.cpp.obj
+C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe
 Target: arm-none-eabi
@@ -177,8 +177,8 @@ Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/conf
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\'
- C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_1650d.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\cc8O5pTh.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\'
+ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_06311.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccHmmByT.s
 GNU C++17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -205,17 +205,17 @@ GNU C++17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 0f8d807569af194104fab848532595cb
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\'
- C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lzh\AppData\Local\Temp\cc8O5pTh.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\'
+ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lzh\AppData\Local\Temp\ccHmmByT.s
 GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627
 COMPILER_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.'
-Linking CXX static library libcmTC_1650d.a
-"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1650d.dir\cmake_clean_target.cmake
-"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1650d.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_1650d.a CMakeFiles/cmTC_1650d.dir/CMakeCXXCompilerABI.cpp.obj
-C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_1650d.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_06311.a
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_06311.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_06311.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_06311.a CMakeFiles/cmTC_06311.dir/CMakeCXXCompilerABI.cpp.obj
+C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_06311.a
 mingw32-make.exe[1]: Leaving directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -255,10 +255,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_1650d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1650d.dir\build.make CMakeFiles/cmTC_1650d.dir/build]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_06311/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_06311.dir\build.make CMakeFiles/cmTC_06311.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1650d.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_06311.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
@@ -266,8 +266,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\']
-  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_1650d.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\cc8O5pTh.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\']
+  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_06311.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\lzh\AppData\Local\Temp\ccHmmByT.s]
   ignore line: [GNU C++17 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -294,8 +294,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 0f8d807569af194104fab848532595cb]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\']
-  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lzh\AppData\Local\Temp\cc8O5pTh.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\']
+  ignore line: [ C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\lzh\AppData\Local\Temp\ccHmmByT.s]
   ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627]
   ignore line: [COMPILER_PATH=C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -304,12 +304,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [C:/software/STM32CubeCLT_1.15.1/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_1650d.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX static library libcmTC_1650d.a]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1650d.dir\cmake_clean_target.cmake]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1650d.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_1650d.a CMakeFiles/cmTC_1650d.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_1650d.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_06311.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_06311.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_06311.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_06311.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_06311.a CMakeFiles/cmTC_06311.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\software\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libcmTC_06311.a]
   ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/EmbeddedChipsProjects/FinalProject/STM32/RoboticStm32/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []

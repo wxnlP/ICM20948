@@ -56,6 +56,8 @@ include_directories(
     Bsp/adc
     Bsp/timer
     Bsp/imu
+    Bsp/can_fd
+    Robotic/pid
     )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE)
@@ -69,6 +71,8 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*"
     "Bsp/adc/*.*"
     "Bsp/timer/*.*"
     "Bsp/imu/*.*"
+    "Bsp/can_fd/*.*"
+    "Robotic/pid/*.*"
     )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103RCTX_FLASH.ld)

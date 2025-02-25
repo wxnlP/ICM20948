@@ -67,12 +67,8 @@ void Error_Handler(void);
 #define IMU_SDA_GPIO_Port GPIOC
 #define BEEP_Pin GPIO_PIN_5
 #define BEEP_GPIO_Port GPIOC
-#define IMU1_SCL_Pin GPIO_PIN_13
-#define IMU1_SCL_GPIO_Port GPIOB
-#define IMU1_AD0_Pin GPIO_PIN_14
-#define IMU1_AD0_GPIO_Port GPIOB
-#define IMU1_SDA_Pin GPIO_PIN_15
-#define IMU1_SDA_GPIO_Port GPIOB
+#define SPI2_NSS_Pin GPIO_PIN_12
+#define SPI2_NSS_GPIO_Port GPIOB
 #define KEY_Pin GPIO_PIN_2
 #define KEY_GPIO_Port GPIOD
 

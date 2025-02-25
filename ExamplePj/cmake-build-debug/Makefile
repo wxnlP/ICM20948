@@ -168,6 +168,33 @@ Bsp/adc/voltage.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Bsp/adc/voltage.c.s
 .PHONY : Bsp/adc/voltage.c.s
 
+Bsp/can_fd/can_fd.obj: Bsp/can_fd/can_fd.c.obj
+
+.PHONY : Bsp/can_fd/can_fd.obj
+
+# target to build an object file
+Bsp/can_fd/can_fd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.obj
+.PHONY : Bsp/can_fd/can_fd.c.obj
+
+Bsp/can_fd/can_fd.i: Bsp/can_fd/can_fd.c.i
+
+.PHONY : Bsp/can_fd/can_fd.i
+
+# target to preprocess a source file
+Bsp/can_fd/can_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.i
+.PHONY : Bsp/can_fd/can_fd.c.i
+
+Bsp/can_fd/can_fd.s: Bsp/can_fd/can_fd.c.s
+
+.PHONY : Bsp/can_fd/can_fd.s
+
+# target to generate assembly for a file
+Bsp/can_fd/can_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Bsp/can_fd/can_fd.c.s
+.PHONY : Bsp/can_fd/can_fd.c.s
+
 Bsp/encoder/encoder.obj: Bsp/encoder/encoder.c.obj
 
 .PHONY : Bsp/encoder/encoder.obj
@@ -465,6 +492,33 @@ Core/Src/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/adc.c.s
 .PHONY : Core/Src/adc.c.s
 
+Core/Src/can.obj: Core/Src/can.c.obj
+
+.PHONY : Core/Src/can.obj
+
+# target to build an object file
+Core/Src/can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.obj
+.PHONY : Core/Src/can.c.obj
+
+Core/Src/can.i: Core/Src/can.c.i
+
+.PHONY : Core/Src/can.i
+
+# target to preprocess a source file
+Core/Src/can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.i
+.PHONY : Core/Src/can.c.i
+
+Core/Src/can.s: Core/Src/can.c.s
+
+.PHONY : Core/Src/can.s
+
+# target to generate assembly for a file
+Core/Src/can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/can.c.s
+.PHONY : Core/Src/can.c.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 
 .PHONY : Core/Src/freertos.obj
@@ -572,6 +626,33 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/spi.obj: Core/Src/spi.c.obj
+
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
 
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 
@@ -879,6 +960,33 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
@@ -1175,6 +1283,33 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: Drivers/STM32F1xx_HAL_D
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
 
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 
@@ -1527,6 +1662,33 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+Robotic/pid/pid.obj: Robotic/pid/pid.c.obj
+
+.PHONY : Robotic/pid/pid.obj
+
+# target to build an object file
+Robotic/pid/pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.obj
+.PHONY : Robotic/pid/pid.c.obj
+
+Robotic/pid/pid.i: Robotic/pid/pid.c.i
+
+.PHONY : Robotic/pid/pid.i
+
+# target to preprocess a source file
+Robotic/pid/pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.i
+.PHONY : Robotic/pid/pid.c.i
+
+Robotic/pid/pid.s: Robotic/pid/pid.c.s
+
+.PHONY : Robotic/pid/pid.s
+
+# target to generate assembly for a file
+Robotic/pid/pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoboticStm32.elf.dir\build.make CMakeFiles/RoboticStm32.elf.dir/Robotic/pid/pid.c.s
+.PHONY : Robotic/pid/pid.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1539,6 +1701,9 @@ help:
 	@echo ... Bsp/adc/voltage.obj
 	@echo ... Bsp/adc/voltage.i
 	@echo ... Bsp/adc/voltage.s
+	@echo ... Bsp/can_fd/can_fd.obj
+	@echo ... Bsp/can_fd/can_fd.i
+	@echo ... Bsp/can_fd/can_fd.s
 	@echo ... Bsp/encoder/encoder.obj
 	@echo ... Bsp/encoder/encoder.i
 	@echo ... Bsp/encoder/encoder.s
@@ -1572,6 +1737,9 @@ help:
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
+	@echo ... Core/Src/can.obj
+	@echo ... Core/Src/can.i
+	@echo ... Core/Src/can.s
 	@echo ... Core/Src/freertos.obj
 	@echo ... Core/Src/freertos.i
 	@echo ... Core/Src/freertos.s
@@ -1584,6 +1752,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s
@@ -1618,6 +1789,9 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s
@@ -1651,6 +1825,9 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s
@@ -1690,6 +1867,9 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... Robotic/pid/pid.obj
+	@echo ... Robotic/pid/pid.i
+	@echo ... Robotic/pid/pid.s
 .PHONY : help
 
 

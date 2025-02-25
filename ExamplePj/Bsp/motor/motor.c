@@ -46,27 +46,27 @@ void Motor_SetSpeed(uint8_t Mx, float duty)
     CompareValue = Motor_DutyToCnt(duty);
     switch (Mx) {
         case 1:
-            if (CompareValue>0) {
-                M1A(CompareValue);
-                M1B(0);
+            if (CompareValue > 0) {
+                M1B(CompareValue);
+                M1A(0);
             }
             else {
-                M1A(0);
-                M1B(-CompareValue);
+                M1B(0);
+                M1A(-CompareValue);
             }
             break;
         case 2:
-            if (CompareValue>0) {
-                M2A(CompareValue);
-                M2B(0);
+            if (CompareValue > 0) {
+                M2B(CompareValue);
+                M2A(0);
             }
             else {
-                M2A(0);
-                M2B(-CompareValue);
+                M2B(0);
+                M2A(-CompareValue);
             }
             break;
         case 3:
-            if (CompareValue>0) {
+            if (CompareValue > 0) {
                 M3A(CompareValue);
                 M3B(0);
             }
@@ -76,7 +76,7 @@ void Motor_SetSpeed(uint8_t Mx, float duty)
             }
             break;
         case 4:
-            if (CompareValue>0) {
+            if (CompareValue > 0) {
                 M4A(CompareValue);
                 M4B(0);
             }
